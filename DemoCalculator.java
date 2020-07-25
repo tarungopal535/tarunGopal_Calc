@@ -38,7 +38,11 @@ class Multiply implements Operation{
 }
 class Division implements Operation{
 	public double getResult(double operand1,double operand2) {
+		try{
 		double Result = operand1/operand2;
+		}catch(Exception e){
+			System.out.printl(e);
+		}
 		return Result;
 	
 	}
