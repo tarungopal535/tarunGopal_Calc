@@ -60,7 +60,8 @@ public class DemoCalculator {
 		while(true)
 		{
 			System.out.println("Enter Your Choice");
-			System.out.println("======================");
+			System.out.println("++++++++++++++++++++++++++");
+			
 			System.out.println("1.Addition\n2.Subttaction\n3.Multiply\n4.Division\n");
 			int choice=0;
 			sc = new Scanner(System.in);
